@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;700&family=Tiro+Bangla&display=swap');
+/*===========================
+font-family: 'Anek Bangla', sans-serif;
+font-family: 'Tiro Bangla', serif;
+===========================================*/
+
+.bg-orange{
+    background: orange;
+}
+.text-orange{
+    color: orange; 
+    font-weight: 600;
+}
+
+/*====================================== head CSS =================================*/
+.head .navbar-brand img{
+    border-radius: 50%;
+    border: 3px solid red;
+    outline: 5px solid black;
+}
+.head .row{
+    font-family: 'Anek Bangla', sans-serif; 
+}
+ .social-media-icon img:hover{
+     transform: rotate(360deg);
+     transition: 1s;
+ }
+
+
+
+/*====================================== header CSS ===============================*/
+.header .navbar .nav-item .nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .3s;
+    padding: 0 5px;
+}
+.header .navbar .dropdown-menu .dropdown-item:hover{
+    color: orange ;
+    font-weight: 500;
+    background: black;
+}
+.header .navbar .login-btn{
+    
+}
+
+.header .navbar .nav-item .nav-link:hover{
+    color: orange;
+}
+.header .social a{
+    border: 3px solid red;
+    border-radius: 50%;
+ }
+
+
+
+/*====================================== home CSS =================================*/
+
+
+
+
+
+
+/*------------------------------ social media css -----------------------------*/
+.social-media{
+    background: 
+}
+.social-media-icon{
+   margin-left: 25%;
+}
+.social-media-icon img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+/*------------------------------ contact css -----------------------------*/
+.contact{
+    background-image:linear-gradient(to right, #bc4ae2, #7a0aa6);
+}
+.contact a{
+    text-decoration: none;
+    margin-left: 0px;
+}
+.contact a img{
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 2px solid gold;
+    padding: 1px;
+}
+.contact-icon{
+    color: white;
+    margin: 10px;
+}
